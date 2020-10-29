@@ -15,7 +15,7 @@ Chess is a two-player board game which requires a checkered board with 64 square
 
 ## Gameplay
 * Player selects a chess piece first. Game shows all the options including how to select that piece (by printing string formats to enter).
-<img align="left" src="/images/1.jpg">
+![image1](/images/1.jpg)
 * After that, game prints x and y coordinates of available chess pieces based on the selection.
 ![image2](/images/2.jpg)
 * When a specific piece is selected, player makes the move for that piece based on available actions given by the game. Let's say the pawn located in location (6,6) is selected, then the game shows all available actions for that specific pawn such as moving it to locations (4,6) or (5,6). 
