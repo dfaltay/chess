@@ -14,18 +14,17 @@ Chess is a two-player board game which requires a checkered board with 64 square
 * For state representation, represent an 8x8x12 array.  The third dimension has 12 entries (6 pieces for 2 players), which are 1 if the corresponding piece is at that position, and 0 otherwise.
 
 ## Gameplay
-* Player selects a chess piece first by showing all the options including how to select that piece (printing string formats to enter)
+* Player selects a chess piece first. Game shows all the options including how to select that piece (by printing string formats to enter).
 ![1](/images/1.jpg)
-* After that game prints x and y coordinates of available chess pieces based on the selection
+* After that, game prints x and y coordinates of available chess pieces based on the selection.
 ![2](/images/2.jpg)
-* When a specific piece is selected, player makes the move for that piece based on available actions given by the game. Let's say the pawn located in location (6,6) is selected, then the game shows all available actions for that specific pawn such as moving it to locations (4,6) or (5,6) 
-
+* When a specific piece is selected, player makes the move for that piece based on available actions given by the game. Let's say the pawn located in location (6,6) is selected, then the game shows all available actions for that specific pawn such as moving it to locations (4,6) or (5,6). 
 ![3](/images/3.jpg)
 * Finally, when one of the available actions is selected, that pieces moves to its new location. Then the game prints new state for the board
 ![4](/images/4.jpg)
-* Game prints states of black and white players as well as their positions after each move. During the selection of the move, game checks whether the players move is a threat for the opponent player’s king or not. On the other hand, game also checks the players move for any checks. If a player moves a piece to a location where the king of the opponent player is threatened, game prints that information to let players know
+* Game prints states of black and white players as well as their positions after each move. During the selection of the move, game checks whether the players move is a threat to the opponent player’s king or not. On the other hand, game also checks the players move for any checks. If a player moves a piece to a location where the king of the opponent player is threatened, game prints that information to let players be aware of that.
 ![5](/images/5.jpg)
 
 ## End Game
-At the end if a king is threatened by one of the players (checkmate) and there is no place to move for the king, then the game ends with a win for the player who does the checkmate. 
+At the end, if a king is threatened by one of the players (checkmate) and there is no place to move for the king, then the game ends with a win for the player who does the checkmate. 
 
