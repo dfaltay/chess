@@ -22,7 +22,7 @@ Chess is a two-player board game which requires a checkered board with 64 square
 ![image3](/images/3.jpg)
 * Finally, when one of the available actions is selected, that pieces moves to its new location. Then the game prints new state for the board
 ![image4](/images/4.jpg)
-* Game prints states of black and white players as well as their positions after each move. During the selection of the move, game checks whether the players move is a threat to the opponent player’s king or not. On the other hand, game also checks the players move for any checks. If a player moves a piece to a location where the king of the opponent player is threatened, game prints that information to let players be aware of that.
+* Game prints states of black and white players as well as their positions after each move. During the selection of the move, game checks whether the players move is a threat to the opponent player’s king or not. On the other hand, game also checks the player's move for any checks. If a player moves a piece to a location where the king of the opponent player is threatened, game prints that information to let players be aware of that.
 ![image5](/images/5.jpg)
 
 ## End Game
