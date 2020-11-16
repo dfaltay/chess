@@ -28,7 +28,7 @@ Chess is a two-player board game which requires a checkered board with 64 square
 * Game prints states of black and white players as well as their positions after each move. During the selection of the move, game checks whether the players move is a threat to the opponent player’s king or not. On the other hand, game also checks the player's move for any checks. If a player moves a piece to a location where the king of the opponent player is threatened, game prints that information to let players be aware of that.
 ![image5](/images/5.jpg)
 
-## Gameplay with chess_Minimax.py (with either baseline AI or tree-based AI)
+## Gameplay with chess_Minimax.py (with baseline AI and tree-based AI)
 * First, a board size should be selected. Different board options are displayed at the beginning.
 ![image8](/images/8.jpg)
 * Player selects a chess piece. Game shows all the options including how to select that piece (by printing string formats to enter).
