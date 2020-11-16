@@ -29,13 +29,13 @@ Chess is a two-player board game which requires a checkered board with 64 square
 ![image5](/images/5.jpg)
 
 ## Gameplay with chess_Minimax.py (with baseline AI and tree-based AI)
-* First, a board size should be selected. Different board options are displayed at the beginning.
+* First, a board size should be selected. Different board options are displayed at the beginning.   
 ![image8](/images/8.jpg)
-* Player selects a chess piece. Game shows all the options including how to select that piece (by printing string formats to enter).
+* Player selects a chess piece. Game shows all the options including how to select that piece (by printing string formats to enter).   
 ![image1](/images/1.jpg)
-* After that, game prints x and y coordinates of available chess pieces based on the selection. Then, the player enters one of the available moves.
+* After that, game prints x and y coordinates of available chess pieces based on the selection. Then, the player enters one of the available moves.   
 ![image9](/images/9.jpg)
-* When it comes to second player’s or black pieces’ turn, game asks to choose one of the AI options which are Tree-based Ai and a Baseline AI. Tree-based Ai corresponds to the minimax algorithm. On the other hand, Baseline AI is a simpler way of moving a piece which randomly selects from all possible moves. 
+* When it comes to second player’s or black pieces’ turn, game asks to choose one of the AI options which are Tree-based Ai and a Baseline AI. Tree-based Ai corresponds to the minimax algorithm. On the other hand, Baseline AI is a simpler way of moving a piece which randomly selects from all possible moves.    
 ![image10](/images/10.jpg)
 
 ## End Game
