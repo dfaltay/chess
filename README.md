@@ -1,6 +1,6 @@
 # Chess
 
-This repository is created for CIS 667 - Intro to Artificial Intelligence class
+This repository is created for CIS 667 - Intro to Artificial Intelligence class.
 
 ## Prerequisites
 * python 3.6 or later
@@ -13,11 +13,11 @@ Chess is a two-player board game which requires a checkered board with 64 square
 
 ## Required Modifications - Updated !!
 * At the beginning of a game, randomly select a small number of positions (say 3) to be "obstacles".  No pieces can be placed at obstacle positions or move through obstacles (for knights, "moving through" means moving along an "L" path that contains an obstacle)
-* Different size options for game board are provided in both "chess_Minimax.py" and "chess_Minimax_plusNN.py"
+* Different size options for game board are provided in both "chess_Minimax.py" and "chess_Minimax_plusNN.py".
 ![image7](/images/7.jpg)
 
 * A baseline AI, tree-based AI are added in "chess_Minimax.py". Baseline AI plays possible pieces randomly. On the other hand, tree-based AI plays best possible option based on minimax algorithm.
-* A NN(neural network)-based AI is also added. Now, the player have 3 options to choose for the opponent 
+* A NN(neural network)-based AI is also added. Now, the player have 3 options to choose for the opponent.
 
 ## Gameplay with chess.py (no AI)
 * Player selects a chess piece first. Game shows all the options including how to select that piece (by printing string formats to enter).
@@ -26,13 +26,13 @@ Chess is a two-player board game which requires a checkered board with 64 square
 ![image2](/images/2.jpg)
 * When a piece is selected, player makes the move for that piece based on available actions given by the game. Let's say the pawn located in location (6,6) is selected, then the game shows all available actions for that specific pawn such as moving it to locations (4,6) or (5,6). 
 ![image3](/images/3.jpg)
-* Finally, when one of the available actions is selected, that pieces moves to its new location. Then the game prints new state for the board
+* Finally, when one of the available actions is selected, that pieces moves to its new location. Then the game prints new state for the board.
 ![image4](/images/4.jpg)
 * Game prints states of black and white players as well as their positions after each move. During the selection of the move, game checks whether the players move is a threat to the opponent player’s king or not. On the other hand, game also checks the player's move for any checks. If a player moves a piece to a location where the king of the opponent player is threatened, game prints that information to let players be aware of that.
 ![image5](/images/5.jpg)
 
 ## Gameplay with chess_withMinimax.py (with baseline AI and tree-based AI)
-* Run chess_withMinimax.py
+* Run chess_withMinimax.py.
 > python chess_withMinimax.py
 * First, a board size should be selected. Different board options are displayed at the beginning.   
 ![image8](/images/8.jpg)
@@ -45,7 +45,7 @@ Chess is a two-player board game which requires a checkered board with 64 square
 
 
 ## Gameplay with chess_withMinimax_plusNN.py (with baseline AI, tree-based AI and NN-based AI) !! NEW !!
-* Run chess_withMinimax_plusNN.py
+* Run chess_withMinimax_plusNN.py.
 > python chess_withMinimax_plusNN.py
 * Follow the first three steps as described above.
 * When it comes to second player’s or black pieces’ turn, game asks to choose one of the AI options which are Baseline AI, Tree-based AI and a NN(neural network)-based AI. 
