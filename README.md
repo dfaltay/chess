@@ -13,7 +13,7 @@ Chess is a two-player board game which requires a checkered board with 64 square
 
 ## Required Modifications - Updated !!
 * At the beginning of a game, randomly select a small number of positions (say 3) to be "obstacles".  No pieces can be placed at obstacle positions or move through obstacles (for knights, "moving through" means moving along an "L" path that contains an obstacle)
-* Different size options for game board are provided in both "chess_Minimax.py" and "chess_Minimax_plusNN.py" version
+* Different size options for game board are provided in both "chess_Minimax.py" and "chess_Minimax_plusNN.py"
 ![image7](/images/7.jpg)
 
 * A baseline AI, tree-based AI are added in "chess_Minimax.py". Baseline AI plays possible pieces randomly. On the other hand, tree-based AI plays best possible option based on minimax algorithm.
