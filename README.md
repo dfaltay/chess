@@ -49,9 +49,9 @@ Chess is a two-player board game which requires a checkered board with 64 square
   python chess_Minimax_plusNN.py
 * Follow the first three steps as described above
 * When it comes to second player’s or black pieces’ turn, game asks to choose one of the AI options which are Baseline AI, Tree-based AI and a NN(neural network)-based AI. 
-![image10](/images/11.jpg
+![image11](/images/11.jpg)
 *NN-based AI consists of two different neural network models. Linear model consists of linear layer. On the other hand, Convolutional Model consists of 2 convolutional layers followed by relu activation layers and a fully connected layer.    
-![image10](/images/12.jpg)
+![image12](/images/12.jpg)
 
 ## End Game
 At the end, if a king is threatened by one of the players (checkmate) and there is no place to move for the king, then the game ends with a win for the player who does the checkmate. 
