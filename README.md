@@ -47,7 +47,7 @@ Chess is a two-player board game which requires a checkered board with 64 square
 ## Gameplay with chess_withMinimax_plusNN.py (with baseline AI, tree-based AI and NN-based AI) !! NEW !!
 * Run chess_withMinimax_plusNN.py
 > python chess_withMinimax_plusNN.py
-* Follow the first three steps as described above
+* Follow the first three steps as described above.
 * When it comes to second player’s or black pieces’ turn, game asks to choose one of the AI options which are Baseline AI, Tree-based AI and a NN(neural network)-based AI. 
 ![image11](/images/11.jpg)
 
@@ -56,4 +56,11 @@ Chess is a two-player board game which requires a checkered board with 64 square
 
 ## End Game
 At the end, if a king is threatened by one of the players (checkmate) and there is no place to move for the king, then the game ends with a win for the player who does the checkmate. 
+
+## Training from Scratch
+* If you want to train the model from scratch, you need to first create a batch of training data from a certain amount of games. You can create it by running "chess_data.py".
+> python chess_data.py
+* After creating the training data, now you can train a new model by running "chess_net.py".
+> python chess_net.py
+* Finally, you can run "chess_withMinimax_plusNN.py" to play the game.
 
