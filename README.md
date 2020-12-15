@@ -32,8 +32,8 @@ Chess is a two-player board game which requires a checkered board with 64 square
 ![image5](/images/5.jpg)
 
 ## Gameplay with chess_withMinimax.py (with baseline AI and tree-based AI)
-* Run chess_Minimax.py
-> python chess_Minimax.py
+* Run chess_withMinimax.py
+> python chess_withMinimax.py
 * First, a board size should be selected. Different board options are displayed at the beginning.   
 ![image8](/images/8.jpg)
 * Player selects a chess piece. Game shows all the options including how to select that piece (by printing string formats to enter).   
@@ -45,8 +45,8 @@ Chess is a two-player board game which requires a checkered board with 64 square
 
 
 ## Gameplay with chess_withMinimax_plusNN.py (with baseline AI, tree-based AI and NN-based AI) !! NEW !!
-* Run chess_Minimax.py
-> python chess_Minimax_plusNN.py
+* Run chess_withMinimax_plusNN.py
+> python chess_withMinimax_plusNN.py
 * Follow the first three steps as described above
 * When it comes to second player’s or black pieces’ turn, game asks to choose one of the AI options which are Baseline AI, Tree-based AI and a NN(neural network)-based AI. 
 ![image11](/images/11.jpg)
