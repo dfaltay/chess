@@ -6,7 +6,7 @@ from chess_withMinimax_plusNN import MinimaxEngine as engine
 import chess_withMinimax_plusNN as game_file
 import torch as tr
 
-def generate(selection="1", num_games=2, max_depth=1):
+def generate(selection="1", num_games=2, max_depth=3):
 
     data = []    
     for game in range(num_games):
